@@ -1,0 +1,38 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #A8A8A8;
+}
+
+#navbar h2 a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#navbar form {
+    display: flex;
+    gap: .5rem;
+}
+
+#navbar input {
+    padding: .2rem .8rem;
+    border-radius: 4px;
+    border: 0.2px solid;
+}
+
+
+#navbar form button {
+    background-color: #DAD9D9;
+    border: 2px solid ;
+    border-radius: 4px;
+    color: #000;
+    padding: .3 rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
